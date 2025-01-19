@@ -288,7 +288,7 @@ public class Main implements NativeKeyListener {
     public void searchLoveFacts() {
         try {
             // Get today's month and day
-            String date = new SimpleDateFormat("MM_dd").format(new Date());
+            String date = new SimpleDateFormat("M_dd").format(new Date());
 
             // Construct the URL for today's love quote
             String url = "https://links2love.com/" + date + ".htm";
